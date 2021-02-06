@@ -100,7 +100,7 @@ library(fpc)
 
 
 
-####regression. Do I need to normalize data first or ??
+####regression. 
 normIt <- function(feature){
                 normalized <- ((feature - min(feature)) / (max(feature) - min(feature)))
                 return (normalized)
